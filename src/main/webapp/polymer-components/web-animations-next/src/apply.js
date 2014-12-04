@@ -14,30 +14,12 @@
 
 (function(scope, testing) {
 
-  var aliased = {};
-
-  function alias(name, aliases) {
-    aliases.concat([name]).forEach(function(candidate) {
-      if (candidate in document.documentElement.style) {
-        aliased[name] = candidate;
-      }
-    });
-  }
-  alias('transform', ['webkitTransform', 'msTransform']);
-  alias('transformOrigin', ['webkitTransformOrigin']);
-  alias('perspective', ['webkitPerspective']);
-  alias('perspectiveOrigin', ['webkitPerspectiveOrigin']);
-
-  function propertyName(property) {
-    return aliased[property] || property;
-  }
-
   scope.apply = function(element, property, value) {
-    element.style[propertyName(property)] = value;
+    element.style[scope.propertyName(property)] = value;
   };
 
   scope.clear = function(element, property) {
-    element.style[propertyName(property)] = '';
+    element.style[scope.propertyName(property)] = '';
   };
 
 })(webAnimationsMinifill, webAnimationsTesting);

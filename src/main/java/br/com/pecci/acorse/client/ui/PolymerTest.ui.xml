@@ -10,7 +10,6 @@
 	}
 	</ui:style>
 	<g:HTMLPanel styleName="{style.center}">
-		Hello,
 		<p:PaperButton ui:field="button" raisedButton="true"></p:PaperButton>
 	</g:HTMLPanel>
 </ui:UiBinder> 
