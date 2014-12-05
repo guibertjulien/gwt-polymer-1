@@ -1,4 +1,4 @@
-package br.com.rpa.client.paperelements;
+package br.com.rpa.client._paperelements;
 
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.event.dom.client.ClickEvent;

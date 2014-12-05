@@ -1,9 +1,9 @@
-package br.com.rpa.client.paperelements;
+package br.com.rpa.client._paperelements;
 
 import java.util.Collection;
 
-import br.com.rpa.client.coreelements.CoreSelector;
-import br.com.rpa.client.coreelements.CoreSelectorItemRenderer;
+import br.com.rpa.client._coreelements.CoreSelector;
+import br.com.rpa.client._coreelements.CoreSelectorItemRenderer;
 
 import com.google.gwt.core.client.Scheduler;
 import com.google.gwt.dom.client.Document;

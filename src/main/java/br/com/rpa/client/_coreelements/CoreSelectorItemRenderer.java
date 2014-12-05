@@ -1,4 +1,4 @@
-package br.com.rpa.client.coreelements;
+package br.com.rpa.client._coreelements;
 
 import com.google.gwt.dom.client.Element;
 

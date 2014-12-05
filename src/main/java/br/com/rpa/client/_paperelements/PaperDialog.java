@@ -1,4 +1,4 @@
-package br.com.rpa.client.paperelements;
+package br.com.rpa.client._paperelements;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package br.com.rpa.client.ui;
 
-import br.com.rpa.client.paperelements.PaperButton;
+import br.com.rpa.client.api.elements.paper.PaperButton;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;

@@ -1,6 +1,6 @@
-package br.com.rpa.client.paperelements;
+package br.com.rpa.client._paperelements;
 
-import br.com.rpa.client.coreelements.CoreInputElement;
+import br.com.rpa.client._coreelements.CoreInputElement;
 
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.dom.client.TagName;
