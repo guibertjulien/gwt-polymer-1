@@ -1,6 +1,6 @@
 package br.com.rpa.client;
 
-import br.com.rpa.client.api.elements.paper.PaperButton;
+import br.com.rpa.client.api.widgets.paper.PaperButton;
 import br.com.rpa.client.ui.PolymerTest;
 
 import com.google.gwt.core.client.EntryPoint;

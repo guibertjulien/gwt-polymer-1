@@ -1,23 +1,18 @@
 package br.com.rpa.client.api.elements.paper;
 
 import com.google.gwt.dom.client.Element;
-import com.google.gwt.dom.client.TagName;
 
-@TagName(PaperButtonElement.TAG)
-public class PaperButtonElement extends Element {
+public class PaperButtonElement extends PaperFocusableElement {
+	public static String tag = "paper-button";
 
-	public static final String TAG = "paper-button";
-
-	/**
-	 * Assert that the given {@link Element} is compatible with this class and
-	 * automatically typecast it.
-	 */
-	public static PaperButtonElement as(Element elem) {
-		assert elem.getTagName().equalsIgnoreCase(TAG);
-		return (PaperButtonElement) elem;
+	protected PaperButtonElement() {
 	}
 
-	protected PaperButtonElement(){}
+	public static PaperButtonElement as(Element element) {
+		PaperFocusableElement elem =  PaperFocusableElement.as(element);
+		assert elem.getTagName().equalsIgnoreCase(tag);
+		return (PaperButtonElement) elem;
+	}
 
 	public final native String getLabel() /*-{
 		return this.label;
@@ -52,5 +47,4 @@ public class PaperButtonElement extends Element {
 	public final native void setRaised(boolean status) /*-{
 		this.raised = status;
 	}-*/;
-
 }
