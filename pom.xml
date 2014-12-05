@@ -5,7 +5,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.pecci</groupId>
+  <groupId>br.com.rpa</groupId>
   <artifactId>gwt-polymer</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
@@ -83,7 +83,7 @@
         <configuration>
           <runTarget>App.html</runTarget>
           <modules>
-            <module>br.com.pecci.acorse.App</module>
+            <module>br.com.rpa.App</module>
           </modules>
         </configuration>
       </plugin>
